@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "lib": ["esnext","dom"],
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "ESNext",
+    "typeRoots": [ "../../typings", "./node_modules/@types"]
+  },
+  "include": [
+    "src/**/*"
+  ],
+}

@@ -1,4 +1,18 @@
 /node_modules
 /data
-.env
+/creds
+.env*
+package-lock.json
+
+# Temp
 /tmp
+
+# Dist
+/dist
+
+# other file types
+*.tgz
+
+# IDE
+.idea/
+.vscode/
